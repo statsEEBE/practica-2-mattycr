@@ -42,6 +42,6 @@ mod <- lm(y~x)
 summary(mod)
 
 cor.test(x,y)
-
+# Asi calculamos la prediccion sin hacer tantos calculos
 y_pred2 <-predict(mod,data.frame(x=1.5))
 y_pred2
